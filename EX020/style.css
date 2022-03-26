@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+
+div > a {
+    color: black;
+    text-decoration: none;
+}
+
+div{
+    background-color: rgba(0, 0, 0, 0.733);
+    color: black;
+    text-align:center;
+    border-radius: 10px;
+    padding: 100px;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.315);
+}
+
+div:active{
+    position: calc(5px 5px 5px);
+    color: black;
+    text-align:center;
+    border-radius: 10px;
+    padding: 30px;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    box-shadow: 2px 2px 2px;
+}
+
+.div1:hover{
+    background-color: rgb(233, 45, 45);
+}
+
+.div2:hover{
+    background-color: rgb(228, 29, 112);
+}
+
+.div3:hover{
+    background-color: rgb(87, 169, 247);
+}
+
+.div4:hover{
+    background-color: rgb(255, 196, 0);
+}

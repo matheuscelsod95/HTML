@@ -1,0 +1,99 @@
+@charset "UFT-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+    p{
+        text-indent: 20px;
+        text-align: justify;
+    }
+        body{
+            font-size: 13px;
+            background-color: rgb(74, 226, 168);
+            padding: 0px;
+        }
+
+        header{
+        background-image: linear-gradient(to top, rgb(30, 94, 69), rgb(81, 247, 183));
+        text-align: center;
+        padding: 5px;
+        margin-top: -10px;
+        margin-left: -5px;
+        margin-right: -10px;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.493);
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.493);
+        color: white;
+        }
+
+        header>h1{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: lighter;
+        }
+        header>p{
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+    article>h2{
+        font-family: idroid;
+        font-size: 17px;
+        color: rgb(43, 95, 66)
+    }
+
+    nav{
+        text-align: left;
+        padding-left: 7px;
+        text-shadow: none;
+    }
+
+    nav>a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    .divvideo{
+        background-color: rgb(30, 94, 69);
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .divlista>h4{
+        background-color: rgb(36, 151, 107);
+        border-radius: 5px 5px 0px 0px;
+        padding: 3px;
+        color: white;
+    }
+    .divlista{
+        background-color: rgb(157, 255, 222);
+        border-radius: 5px 5px 5px 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+    }
+
+    .divlista>p{
+        padding: 5px;
+        text-align: justify;
+    }
+    main{
+        margin-left: 80px;
+        margin-right: 80px;
+        background-color: white;
+        padding: 10px;
+        box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.507);
+        border-radius: 0px 0px 5px 5px;
+    }
+    article>h3{
+        background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(81, 247, 183));
+        font-family: idroid;
+        font-size: 15px;
+        color: rgb(43, 95, 66);
+    }
+
+    footer{
+        background-color: rgb(30, 94, 69);
+        margin: 0px -8px 0px -2px;
+        text-align: center;
+    }
+    footer>p{
+        padding: 3px;
+        color: white;
+    }
